@@ -1,0 +1,22 @@
+swagger: "2.0"
+
+info:
+  title: Model Service
+  version: "0.1"
+  description: Model service on flask + swagger
+
+consumes:
+  - "application/json charset=utf-8"
+
+produces:
+  - "application/json charset=utf-8"
+
+paths:
+  /health:
+    get:
+      tags: [Health]
+      operationId: app.health
+      summary: health check
+      responses:
+        '200':
+          description: Status message
