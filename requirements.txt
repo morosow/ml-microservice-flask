@@ -1,0 +1,5 @@
+connexion==2.9.0
+gevent==21.8.0
+pytest-coverage==0.0
+swagger-spec-validator==2.7.3
+tomli==1.2.2
